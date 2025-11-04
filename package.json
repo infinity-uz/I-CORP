@@ -1,0 +1,27 @@
+{
+  "name": "i-corp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --watch main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinity-uz/I-CORP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/infinity-uz/I-CORP/issues"
+  },
+  "homepage": "https://github.com/infinity-uz/I-CORP#readme",
+  "dependencies": {
+    "axios": "^1.13.1",
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
