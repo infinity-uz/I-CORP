@@ -16,7 +16,7 @@ git https://github.com/infinity-uz/I-CORP.git
 npm install
 ```
 
-### 3. Dasturni ishga tushurish uchun 
+### 3. Code ni ishga tushurish uchun 
 ```bash
 node start
 ```
@@ -26,7 +26,7 @@ node start
 ## Kod ishlash strukturasi
 
 
-1. **Express server** 3333 run bo'ladi
+1. **Express serverga** 3333 run bo'ladi
 2. **Ngrok dan vaqtinchalik PORT ochiladi**  va shundan rusxsat ochiladi
 3. **1-POST so'rov yuboriladi** url ga PORT so'rovi ketadi
 4. **1 code** post.data.part1 orqali (`part1`) orqali olinadi
@@ -34,12 +34,4 @@ node start
 6. Kelgan 2 ta kodni conCat orqali **birlashtiriladi**: `part1 + part2`
 8. **Yakuniy natija** konsolda chiqadi
 
-### API Endpoint lar
-
 **POST/GET `/i-corp`** - Ikkinchi kod qismini (`part2`) qabul qiladi
-
-Request misollari:
-```json
-POST: {"part2": "2-code"}
-GET: /test-api?part2=2-code
-```
