@@ -21,7 +21,7 @@ app.get("/i-corp", (req, res) => {
 
 async function main() {
     try {
-        const server = app.listen(PORT, console.log(`Server is listing PORT:`,PORT));
+        const server = app.listen(PORT, console.log(`Server is listening PORT:`,PORT));
 
         const ngrok = await connect({
             addr: PORT,
